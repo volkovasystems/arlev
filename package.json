@@ -1,0 +1,44 @@
+{
+  "name": "arlev",
+  "version": "0.0.0",
+  "description": "Get array level.",
+  "main": "arlev.js",
+  "support": "arlev.support.js",
+  "deploy": "arlev.deploy.js",
+  "browser": "arlev.browser.js",
+  "scripts": {
+    "build": "babel arlev.js --out-file arlev.support.js --source-maps && webpack --progress --display-modules",
+    "test": "mocha arlev-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/arlev.git"
+  },
+  "keywords": [
+    "get",
+    "array",
+    "level",
+    "arlev"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/arlev/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/arlev#readme",
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "doubt": "^0.27.0",
+    "falzy": "^0.20.0",
+    "protype": "^0.22.0",
+    "raze": "^0.30.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "source-map-loader": "^0.2.1",
+    "webpack": "^2.6.1"
+  }
+}
