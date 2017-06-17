@@ -1,6 +1,6 @@
 {
   "name": "arlev",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get array level.",
   "main": "arlev.js",
   "support": "arlev.support.js",
