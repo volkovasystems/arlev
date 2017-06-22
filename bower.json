@@ -1,11 +1,13 @@
 {
   "name": "arlev",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Get array level.",
   "main": "arlev.deploy.js",
   "support": "arlev.support.js",
   "authors": [
-    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+    "Vinse Vinalon <vinsevinalon@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [

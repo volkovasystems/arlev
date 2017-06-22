@@ -1,6 +1,6 @@
 {
   "name": "arlev",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Get array level.",
   "main": "arlev.js",
   "support": "arlev.support.js",
@@ -21,6 +21,10 @@
     "arlev"
   ],
   "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "contributors": [
+    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+    "Vinse Vinalon <vinsevinalon@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/volkovasystems/arlev/issues"
@@ -39,6 +43,6 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-latest": "^6.24.1",
     "source-map-loader": "^0.2.1",
-    "webpack": "^2.6.1"
+    "webpack": "^3.0.0"
   }
 }
