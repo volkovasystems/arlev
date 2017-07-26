@@ -53,7 +53,6 @@
               		{
               			"doubt": "doubt",
               			"falzy": "falzy",
-              			"protype": "protype",
               			"raze": "raze"
               		}
               	@end-include
@@ -61,7 +60,6 @@
 
 var doubt = require("doubt");
 var falzy = require("falzy");
-var protype = require("protype");
 var raze = require("raze");
 
 var computeLevel = function computeLevel(array, depth) {
@@ -81,7 +79,7 @@ var computeLevel = function computeLevel(array, depth) {
 		return depth;
 	}
 
-	if (falzy(depth) || !protype(depth, NUMBER)) {
+	if (falzy(depth) || typeof depth != "number") {
 		throw new Error("invalid depth");
 	}
 

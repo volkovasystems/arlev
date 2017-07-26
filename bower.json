@@ -1,33 +1,32 @@
 {
-  "name": "arlev",
-  "version": "0.2.0",
-  "description": "Get array level.",
-  "main": "arlev.deploy.js",
-  "support": "arlev.support.js",
-  "authors": [
-    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
-    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
-    "Vinse Vinalon <vinsevinalon@gmail.com>"
-  ],
-  "license": "MIT",
-  "keywords": [
-    "get",
-    "array",
-    "level",
-    "arlev"
-  ],
-  "homepage": "https://github.com/volkovasystems/arlev",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "doubt": "^0.27.0",
-    "falzy": "^0.20.0",
-    "protype": "^0.22.0",
-    "raze": "^0.30.0"
-  }
+	"name": "arlev",
+	"version": "0.3.0",
+	"description": "Get array level.",
+	"main": "arlev.deploy.js",
+	"support": "arlev.support.js",
+	"authors": [
+		"Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+		"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+		"Vinse Vinalon <vinsevinalon@gmail.com>"
+	],
+	"license": "MIT",
+	"keywords": [
+		"get",
+		"array",
+		"level",
+		"arlev"
+	],
+	"homepage": "https://github.com/volkovasystems/arlev",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"doubt": "^0.34.0",
+		"falzy": "^0.23.0",
+		"raze": "^0.34.0"
+	}
 }

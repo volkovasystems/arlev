@@ -2,7 +2,6 @@ yarn add \
 babel-runtime \
 doubt \
 falzy \
-protype \
 raze \
 --save && \
 yarn add \
@@ -16,7 +15,6 @@ webpack \
 bower install \
 doubt \
 falzy \
-protype \
 raze \
 --save \
 --force-latest
