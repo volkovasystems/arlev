@@ -1,0 +1,84 @@
+{
+	"state": {
+		"passed": 1,
+		"failed": 0,
+		"skipped": 0
+	},
+	"start": "2017-08-25T06:27:24.482Z",
+	"end": "2017-08-25T06:28:01.459Z",
+	"capabilities": {
+		"browserName": "chrome",
+		"chromeOptions": {
+			"args": [
+				"disable-gpu",
+				"headless"
+			]
+		},
+		"proxy": null
+	},
+	"host": "127.0.0.1",
+	"port": 4444,
+	"baseUrl": "http://localhost",
+	"framework": "mocha",
+	"mochaOpts": {
+		"timeout": 10000,
+		"ui": "bdd"
+	},
+	"suites": [
+		{
+			"name": "arlev",
+			"duration": 0,
+			"start": "2017-08-25T06:28:01.174Z",
+			"tests": [],
+			"hooks": []
+		},
+		{
+			"name": "arlev",
+			"duration": 120,
+			"start": "2017-08-25T06:28:01.174Z",
+			"end": "2017-08-25T06:28:01.294Z",
+			"tests": [],
+			"hooks": [
+				{
+					"start": "2017-08-25T06:28:01.176Z",
+					"end": "2017-08-25T06:28:01.176Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "arlev",
+					"associatedTest": "should be equal to 4"
+				},
+				{
+					"start": "2017-08-25T06:28:01.277Z",
+					"end": "2017-08-25T06:28:01.278Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "arlev",
+					"associatedTest": "should be equal to 4"
+				},
+				{
+					"start": "2017-08-25T06:28:01.294Z",
+					"end": "2017-08-25T06:28:01.295Z",
+					"duration": 1,
+					"title": "\"after all\" hook",
+					"associatedSuite": "arlev"
+				}
+			]
+		},
+		{
+			"name": "`arlev( [ [ [ ] ] , [ [ [ ] ] ] ] )`",
+			"duration": 119,
+			"start": "2017-08-25T06:28:01.175Z",
+			"end": "2017-08-25T06:28:01.294Z",
+			"tests": [
+				{
+					"name": "should be equal to 4",
+					"start": "2017-08-25T06:28:01.175Z",
+					"end": "2017-08-25T06:28:01.277Z",
+					"duration": 102,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		}
+	]
+}

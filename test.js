@@ -66,6 +66,12 @@ const arlev = require( "./arlev.js" );
 
 describe( "arlev", ( ) => {
 
+	describe( "`arlev( [ [ [ ] ] , [ [ [ ] ] ] ] )`", ( ) => {
+		it( "should be equal to 4", ( ) => {
+			assert.equal( arlev( [ [ [ ] ] , [ [ [ ] ] ] ] ), 4 );
+		} );
+	} );
+
 } );
 
 //: @end-server

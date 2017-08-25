@@ -70,6 +70,12 @@ const path = require( "path" );
 
 describe( "arlev", ( ) => {
 
+	describe( "`arlev( [ [ [ ] ] , [ [ [ ] ] ] ] )`", ( ) => {
+		it( "should be equal to 4", ( ) => {
+			assert.equal( arlev( [ [ [ ] ] , [ [ [ ] ] ] ] ), 4 );
+		} );
+	} );
+
 } );
 
 //: @end-server
@@ -79,6 +85,11 @@ describe( "arlev", ( ) => {
 
 describe( "arlev", ( ) => {
 
+	describe( "`arlev( [ [ [ ] ] , [ [ [ ] ] ] ] )`", ( ) => {
+		it( "should be equal to 4", ( ) => {
+			assert.equal( arlev( [ [ [ ] ] , [ [ [ ] ] ] ] ), 4 );
+		} );
+	} );
 
 } );
 
@@ -88,6 +99,24 @@ describe( "arlev", ( ) => {
 //: @bridge:
 
 describe( "arlev", ( ) => {
+
+	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
+
+	describe( "`arlev( [ [ [ ] ] , [ [ [ ] ] ] ] )`", ( ) => {
+		it( "should be equal to 4", ( ) => {
+
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return arlev( [ [ [ ] ] , [ [ [ ] ] ] ] );
+				}
+
+			).value;
+
+			assert.equal( result, 4 );
+
+		} );
+	} );
 
 } );
 
